@@ -1,0 +1,56 @@
+.cabecera{
+    background-image: url(../img/subtle-prism.png);
+    font-family: 'Inconsolata', monospace;
+}
+
+.titulo{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.imagen {
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 175px;
+    object-fit: fill;
+}
+
+.encabezados{
+    background-color:grey;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Inconsolata', monospace;
+}
+
+.vinculo{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+
+}
+
+.textoB {
+    font-weight:bold;
+    font-family: 'Inconsolata', monospace;
+}
+
+p{
+    font-family: 'Inconsolata', monospace; 
+}
+
+
+
+footer {
+    text-transform:uppercase;
+    background: grey;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px
+  }
